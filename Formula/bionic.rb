@@ -10,11 +10,11 @@ class Bionic < Formula
 
   if OS.mac? && Hardware::CPU.intel?
     url "https://github.com/bionic-dev/bionic/releases/download/v0.0.1/bionic_0.0.1_Darwin_x86_64.tar.gz"
-    sha256 "a02ad92a26d94c6aab0943b81988419ff16ab70e142efdd39232ec385f12c796"
+    sha256 "b0bce3f2b121601b9d6c33e3a9ab04ece965aec8f47497dce6666659393dd051"
   end
   if OS.linux? && Hardware::CPU.intel?
     url "https://github.com/bionic-dev/bionic/releases/download/v0.0.1/bionic_0.0.1_Linux_x86_64.tar.gz"
-    sha256 "f2c228cc5c12a08ea02c2fb3e3629b273e5d3e11140549c85ceb84a135546850"
+    sha256 "b153bca5ced50edc3ffffa8284ebc67089c5317855d2a3e1cc96071d55a581c3"
   end
 
   def install
