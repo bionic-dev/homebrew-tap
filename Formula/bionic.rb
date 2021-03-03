@@ -5,16 +5,16 @@
 class Bionic < Formula
   desc ""
   homepage "https://bionic.dev"
-  version "0.0.1"
+  version "0.0.2"
   bottle :unneeded
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/bionic-dev/bionic/releases/download/v0.0.1/bionic_0.0.1_Darwin_x86_64.tar.gz"
-    sha256 "e8ceee215c3d5a64fe3e68f7a31c266d888bca512c6e2ccd1a4819f5121a7b16"
+    url "https://github.com/bionic-dev/bionic/releases/download/v0.0.2/bionic_0.0.2_Darwin_x86_64.tar.gz"
+    sha256 "cca0e5935b5d796635c1730050a773d297c9fdd4b53252f6591656a7d0fd71d4"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/bionic-dev/bionic/releases/download/v0.0.1/bionic_0.0.1_Linux_x86_64.tar.gz"
-    sha256 "0a961382efe2cdfca86810fbe21ca688c28a2234a942ae994c3ca1c0f10958ca"
+    url "https://github.com/bionic-dev/bionic/releases/download/v0.0.2/bionic_0.0.2_Linux_x86_64.tar.gz"
+    sha256 "e4691fb2ba209f048874dd5a5fbc997048c592ef1ed1278c5a06ff2cd053148e"
   end
 
   def install
